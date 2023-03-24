@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 
 export const SignInButton = styled.button`
@@ -23,8 +22,6 @@ export const Slogan = styled.p`
 
 export const Container = styled.div`
   display: flex;
-  padding: 50px;
-  height: 100vh;
   align-items: center;
   flex-direction: column;
   justify-content: center;

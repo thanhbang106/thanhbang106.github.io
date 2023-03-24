@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import Header from "./components/Header/Header";
 import EmailForm from "./components/EmailForm/EmailForm";
+import SecondPage from "./components/SecondPage/SecondPage";
 
 import {
   SignInButton,
@@ -14,6 +15,8 @@ function App() {
     <div
       style={{
         backgroundImage: `url("https://cdn.wallpapersafari.com/24/74/zgeTuV.jpg")`,
+        width: "1830px",
+        height: "1200px",
       }}
     >
       <div style={{ display: "flex", justifyContent: "space-between" }}>
@@ -65,6 +68,8 @@ function App() {
         </Slogan>
         <EmailForm />
       </Container>
+
+      <SecondPage></SecondPage>
     </div>
   );
 }
